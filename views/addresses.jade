@@ -1,0 +1,7 @@
+extends layout
+
+block content
+  h1 Addresses
+  ul
+  each address in addresses
+    li #{address.address} - #{address.path} - #{address.user}
